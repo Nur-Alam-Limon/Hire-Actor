@@ -4,15 +4,17 @@ import Cart from "../Cart/Cart";
 import "./Body.css";
 
 const Body = () => {
+  // Actor/Actress Card
   const [card, setCard] = useState([]);
+  // Cart Info
   const [cart, setCart] = useState([]);
-
+  // Load Data
   useEffect(() => {
     fetch("./data.json")
       .then((res) => res.json())
       .then((data) => setCard(data));
   }, []);
-
+  //  Update Cart
   const handleCart = (people) => {
     const newCart = [...cart, people];
     setCart(newCart);
@@ -20,6 +22,7 @@ const Body = () => {
 
   return (
     <div className="body">
+      {/* Card Info  */}
       <div className="card-info">
         {card.map((person) => (
           <Card
@@ -29,8 +32,9 @@ const Body = () => {
           ></Card>
         ))}
       </div>
+      {/* Cart info  */}
       <div className="cart">
-        <Cart cart={cart}></Cart>
+        <Cart key={cart.name} cart={cart}></Cart>
       </div>
     </div>
   );

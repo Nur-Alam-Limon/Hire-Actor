@@ -15,6 +15,7 @@ const Card = (props) => {
       <p>Role: {Role}</p>
       <p>Country: {Country}</p>
       <p>Salary: {salary}</p>
+      {/* Button  */}
       <button onClick={() => props.handleCart(props.person)} className="btn">
         {element}Hire
       </button>

@@ -1,0 +1,13 @@
+.header {
+  background-color: #201e1f;
+  color: #ff4000;
+  text-align: center;
+  margin-top: 0;
+  padding: 40px;
+}
+
+.budget {
+  padding-top: 10px;
+  font-size: 20px;
+  color: white;
+}

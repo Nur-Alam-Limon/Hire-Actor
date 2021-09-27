@@ -1,0 +1,19 @@
+.image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.card {
+  background-color: #eee5e5;
+  padding: 20px;
+  border-radius: 10px;
+}
+.btn {
+  width: 100px;
+  background-color: tomato;
+  border: 1px solid tomato;
+  color: white;
+  height: 25px;
+  margin-top: 10px;
+  font-weight: 500;
+}

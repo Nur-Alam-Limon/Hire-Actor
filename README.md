@@ -1,6 +1,6 @@
 # Hiring Actor/Actress For a Movie
 
-Site Live Link(https://github.com/facebook/create-react-app).
+Site Live Link(https://hire-actor.netlify.app/).
 
 ## Technology Used
 
